@@ -858,7 +858,6 @@ PROGS_OBJS =		\
 SERVER_OBJS = 		\
 	pr_cmds.o 		\
 	pr_q1qvm.o	\
-	pr_lua.o	\
 	sv_master.o 	\
 	sv_init.o 		\
 	sv_main.o 		\

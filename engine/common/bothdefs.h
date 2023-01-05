@@ -250,7 +250,6 @@ Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
 	#undef HLCLIENT
 	#undef HLSERVER
 	#undef VM_Q1
-	#undef VM_LUA
 	#undef HALFLIFEMODELS
 	#undef RUNTIMELIGHTING
 	#undef HEXEN2

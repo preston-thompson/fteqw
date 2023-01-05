@@ -3207,10 +3207,6 @@
 					</FileConfiguration>
 				</File>
 				<File
-					RelativePath="..\server\pr_lua.c"
-					>
-				</File>
-				<File
 					RelativePath="..\server\pr_q1qvm.c"
 					>
 				</File>

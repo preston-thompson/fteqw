@@ -1258,9 +1258,6 @@ void SV_Savegame (const char *savename, qboolean mapchange)
 	{
 	default:
 	case GT_Q1QVM:
-#ifdef VM_LUA
-	case GT_LUA:
-#endif
 		Con_Printf("gamecode doesn't support saving\n");
 		return;
 	case GT_PROGS:

@@ -5835,9 +5835,6 @@ static void COM_Version_f (void)
 #if defined(VM_Q1)
 	Con_Printf(" ssq1qvm");
 #endif
-#if defined(VM_LUA)
-	Con_Printf(" ssq1lua^h(dynamic)");
-#endif
 #if defined(MENU_DAT)
 	Con_Printf(" menuqc");
 #endif

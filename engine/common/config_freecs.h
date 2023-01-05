@@ -143,7 +143,6 @@
 #undef SUBSERVERS
 ////#undef SV_MASTER
 #undef HAVE_MIXER	//openal only
-#undef VM_LUA
 #undef HLCLIENT
 #undef HLSERVER
 #undef FTPSERVER

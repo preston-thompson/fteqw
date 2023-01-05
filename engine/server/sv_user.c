@@ -4359,9 +4359,6 @@ void SV_Kill_f (void)
 		Q1QVM_ClientCommand();
 		return;
 #endif
-#ifdef VM_LUA
-	case GT_LUA:
-#endif
 	case GT_PROGS:
 		break;
 	default:

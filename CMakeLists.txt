@@ -662,7 +662,6 @@ SET(FTE_COMMON_FILES
 SET(FTE_SERVER_FILES
 	engine/server/net_preparse.c
 	engine/server/pr_cmds.c
-	engine/server/pr_lua.c
 	engine/server/pr_q1qvm.c
 	engine/server/savegame.c
 	engine/server/sv_ccmds.c

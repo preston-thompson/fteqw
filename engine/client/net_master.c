@@ -297,9 +297,6 @@ static void SV_Master_SingleHeartbeat(net_masterlist_t *master)
 			{
 			case MP_QUAKEWORLD:
 				if ((svs.gametype == GT_PROGS || svs.gametype == GT_Q1QVM
-#ifdef VM_LUA
-					|| svs.gametype == GT_LUA
-#endif
 					) && sv_listen_qw.value && na->type == NA_IP)
 				{
 					if (!madeqwstring)

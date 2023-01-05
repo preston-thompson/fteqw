@@ -1,0 +1,10 @@
+engine/release
+engine/debug
+engine/profile
+droid/bin
+droid/gen
+droid/libs
+droid/default.properties
+droid/local.properties
+droid/proguard.cfg
+droid/build.xml

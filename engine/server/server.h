@@ -896,9 +896,6 @@ typedef enum {
 	GT_HALFLIFE,
 	GT_QUAKE2,	//q2 servers run from a q2 game dll
 	GT_QUAKE3,	//q3 servers run off the q3 qvm api
-#ifdef VM_LUA
-	GT_LUA,		//for the luls
-#endif
 	GT_MAX
 } gametype_e;
 

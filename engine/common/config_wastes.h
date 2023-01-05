@@ -180,7 +180,6 @@
 #undef SIDEVIEWS
 #undef MAX_SPLITS
 #undef SUBSERVERS		/* multi-map */
-#undef VM_LUA			/* lua game-logic */
 #undef HLCLIENT			/* regressed, unfinished*/
 #undef HLSERVER			/* regressed, unfinished */
 #undef FTPSERVER

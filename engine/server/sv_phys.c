@@ -2537,9 +2537,6 @@ qboolean SV_Physics (void)
 	movevars.gravity = sv_gravity.value;
 
 	if (svs.gametype != GT_PROGS && svs.gametype != GT_Q1QVM && svs.gametype != GT_HALFLIFE 
-#ifdef VM_LUA
-		&& svs.gametype != GT_LUA
-#endif
 		)	//make tics multiples of sv_maxtic (defaults to 0.1)
 	{
 		if (svs.gametype == GT_QUAKE2)

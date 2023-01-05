@@ -580,9 +580,6 @@ void SV_DropClient (client_t *drop)
 	{
 	case GT_MAX:
 		break;
-#ifdef VM_LUA
-	case GT_LUA:
-#endif
 	case GT_Q1QVM:
 	case GT_PROGS:
 		if (svprogfuncs)
@@ -2925,9 +2922,6 @@ void SV_DoDirectConnect(svconnectinfo_t *fte_restrict info)
 
 #ifdef VM_Q1
 	case GT_Q1QVM:
-#endif
-#ifdef VM_LUA
-	case GT_LUA:
 #endif
 	case GT_PROGS:
 		if (info->protocol == SCP_QUAKE2)

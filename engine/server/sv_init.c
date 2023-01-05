@@ -1170,10 +1170,6 @@ MSV_OpenUserDatabase();
 	else if ((sv.world.worldmodel->fromgame == fg_quake2 || sv.world.worldmodel->fromgame == fg_quake3) && sv.world.worldmodel->funcs.AreasConnected && !*pr_ssqc_progs.string && SVQ2_InitGameProgs())	//these are the rules for running a q2 server
 		newgametype = GT_QUAKE2;	//we loaded the dll
 #endif
-#ifdef VM_LUA
-	else if (PR_LoadLua())
-		newgametype = GT_LUA;
-#endif
 #ifdef VM_Q1
 	else if (PR_LoadQ1QVM())
 		newgametype = GT_Q1QVM;
@@ -1242,9 +1238,6 @@ MSV_OpenUserDatabase();
 	else
 #endif
 	if (svs.gametype == GT_PROGS
-#ifdef VM_LUA
-		|| svs.gametype == GT_LUA
-#endif
 		)
 	{
 		int subs;
@@ -1328,9 +1321,6 @@ MSV_OpenUserDatabase();
 	default:
 		SV_Error("bad gametype");
 		break;
-#ifdef VM_LUA
-	case GT_LUA:
-#endif
 	case GT_Q1QVM:
 	case GT_PROGS:
 		ent = EDICT_NUM_PB(svprogfuncs, 0);

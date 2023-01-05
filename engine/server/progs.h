@@ -139,9 +139,6 @@ void PR_PreShutdown(void);
 void PR_LocalInfoChanged(char *name, char *oldivalue, char *newvalue);
 void PF_InitTempStrings(pubprogfuncs_t *inst);
 
-#ifdef VM_LUA
-qboolean PR_LoadLua(void);
-#endif
 #ifdef VM_Q1
 #define VMFSID_Q1QVM 57235	//the q1qvm zone tag that is freed when the module is purged.
 struct client_s;

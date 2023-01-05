@@ -122,7 +122,6 @@
 #define MENU_DAT
 //#define MENU_NATIVECODE		//Use an external dll for menus.
 //#define VM_Q1					//q1qvm implementation, to support ktx.
-//#define VM_LUA				//optionally supports lua instead of ssqc.
 //#define Q2SERVER				//q2 server+gamecode.
 //#define Q2CLIENT				//q2 client. file formats enabled separately.
 //#define Q3CLIENT				//q3 client stuff.
